@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebGenie - Nettsider på minutter</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        color: #222;
+    }
+    header {
+        background: white;
+        padding: 1em 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .logo span {
+        color: #0070f3;
+    }
+    .cta-btn {
+        background: #0070f3;
+        color: white;
+        padding: 0.7em 1.5em;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .hero {
+        background: #f9f9f9;
+        padding: 3em 5%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2em;
+    }
+    .hero img {
+        max-width: 500px;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .features, .steps, .pricing {
+        padding: 3em 5%;
+    }
+    h3 {
+        margin-bottom: 1em;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1em;
+    }
+    .price-card {
+        background: #f0f0f0;
+        padding: 1.5em;
+        border-radius: 5px;
+        text-align: center;
+    }
+    footer {
+        background: #222;
+        color: white;
+        padding: 1em 5%;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Web<span>Genie</span></div>
+    <a href="#cta" class="cta-btn">Bygg min nettside nå</a>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>Få en profesjonell nettside på 3 minutter – uten å kunne koding</h2>
+        <p>Svar på noen enkle spørsmål, og vi bygger ferdig nettsiden din med AI. Ferdig til bruk. Ferdig til å imponere.</p>
+        <a href="#cta" class="cta-btn">Bygg min nettside nå</a>
+    </div>
+    <img src="https://via.placeholder.com/500x300" alt="Eksempel på nettside">
+</section>
+
+<section class="features">
+    <h3>Fordeler</h3>
+    <div class="grid">
+        <div>🚀 <b>Raskt:</b> Ferdig på minutter</div>
+        <div>💸 <b>Billig:</b> Fra 2 990 kr – ingen skjulte kostnader</div>
+        <div>🎨 <b>Unikt:</b> Design og tekst tilpasset din bedrift</div>
+        <div>🔒 <b>Trygt:</b> Hosting, oppdateringer og sikkerhet inkludert</div>
+    </div>
+</section>
+
+<section class="steps">
+    <h3>Hvordan det fungerer</h3>
+    <ol>
+        <li><b>Fortell oss om deg:</b> Fyll ut vårt enkle skjema</li>
+        <li><b>AI tryller frem ditt design:</b> Tekst, bilder og design lages automatisk</li>
+        <li><b>Lanser & tjen penger:</b> Vi hjelper deg å komme i gang</li>
+    </ol>
+</section>
+
+<section class="pricing" id="cta">
+    <h3>Velg din pakke</h3>
+    <div class="grid">
+        <div class="price-card">
+            <h4>Start</h4>
+            <p>2 990 kr</p>
+            <p>Ferdig nettside + domene</p>
+        </div>
+        <div class="price-card">
+            <h4>Pro</h4>
+            <p>4 990 kr</p>
+            <p>Nettside + SEO + logo</p>
+        </div>
+        <div class="price-card">
+            <h4>VIP</h4>
+            <p>299 kr/mnd</p>
+            <p>Hosting, oppdateringer, support</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 WebGenie – Alle rettigheter reservert</p>
+</footer>
+
+</body>
+</html>
