@@ -1,1 +1,1 @@
-# Trening
+# Ai development
